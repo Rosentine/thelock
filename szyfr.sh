@@ -6,7 +6,7 @@ q=0
 w=0
 e=0
 
-for ((i=0;; i++))
+while true
 do
 
 	if [[ $szyfr == $x ]]
