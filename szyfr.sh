@@ -1,7 +1,7 @@
 #!/bin/bash
 
 x=$1
-szyfr=""
+cipher=""
 q=0
 w=0
 e=0
@@ -11,7 +11,7 @@ do
 
 	if [[ $szyfr == $x ]]
 	then
-		echo "Otwarte!"
+		echo "Lock has been opened!"
 		break
 	else
 		((q++))
@@ -26,7 +26,7 @@ do
 			fi
 		fi
 	fi
-	szyfr="$e$w$q"
+	cipher="$e$w$q"
 done			
 
 
