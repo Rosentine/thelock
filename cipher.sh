@@ -9,7 +9,7 @@ e=0
 while true
 do
 
-	if [[ $szyfr == $x ]]
+	if [[ $cipher == $x ]]
 	then
 		echo "Lock has been opened!"
 		break
